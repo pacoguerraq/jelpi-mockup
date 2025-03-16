@@ -1,12 +1,11 @@
 // pages/index.tsx
 import React from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import Head from 'next/head';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { CreditCard, Tag, Scan, Key, Shield, Settings, Search, ArrowRight } from "lucide-react";
+import { CreditCard, Tag, Scan, Key, Shield, Settings, ArrowRight } from "lucide-react";
 
 export default function Home() {
   // Array de casos de uso para mostrar en la sección de usos

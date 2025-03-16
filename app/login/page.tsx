@@ -9,7 +9,6 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Label } from "@/components/ui/label";
 import { Scan, Mail, Lock, ArrowRight, CheckCircle } from "lucide-react";
-import Image from "next/image";
 import Link from "next/link";
 
 export default function AuthPage() {

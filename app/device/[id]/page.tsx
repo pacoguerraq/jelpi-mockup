@@ -210,20 +210,6 @@ const sampleProfiles: Record<string, ProfileInfo> = {
     }
 };
 
-// Funciones auxiliares
-const getStatusBadgeColor = (status: DeviceStatus) => {
-    switch (status) {
-        case "inactive":
-            return "bg-yellow-100 text-yellow-800 border-yellow-200";
-        case "activated":
-            return "bg-green-100 text-green-800 border-green-200";
-        case "linked":
-            return "bg-purple-100 text-purple-800 border-purple-200";
-        default:
-            return "bg-gray-100 text-gray-800";
-    }
-};
-
 const getStatusLabel = (status: DeviceStatus) => {
     switch (status) {
         case "inactive":
@@ -249,23 +235,6 @@ const getProfileTypeName = (profileTypeId: number) => {
             return "Vendedor";
         default:
             return "Sin definir";
-    }
-};
-
-const getProfileTypeBadge = (profileTypeId: number) => {
-    if (!profileTypeId) return null;
-
-    switch (profileTypeId) {
-        case 1:
-            return <Badge className="bg-red-100 text-red-800 border-red-200 border">Médico</Badge>;
-        case 2:
-            return <Badge className="bg-blue-100 text-blue-800 border-blue-200 border">Mascota</Badge>;
-        case 3:
-            return <Badge className="bg-green-100 text-green-800 border-green-200 border">Contacto</Badge>;
-        case 4:
-            return <Badge className="bg-purple-100 text-purple-800 border-purple-200 border">Vendedor</Badge>;
-        default:
-            return null;
     }
 };
 
