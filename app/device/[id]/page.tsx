@@ -607,10 +607,12 @@ export default function DeviceDetailPage() {
                                     {device.public_url && (
                                         <div className="flex justify-between items-center py-2">
                                             <span className="text-sm text-gray-500">URL Pública</span>
-                                            <Button variant="outline" size="sm">
-                                                <ExternalLink className="h-4 w-4 mr-2" />
-                                                Ver Perfil
-                                            </Button>
+                                            <Link href={`/${device.id}`}>
+                                                <Button variant="outline" size="sm">
+                                                    <ExternalLink className="h-4 w-4 mr-2" />
+                                                    Ver Perfil
+                                                </Button>
+                                            </Link>
                                         </div>
                                     )}
                                 </div>

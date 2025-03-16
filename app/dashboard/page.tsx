@@ -239,39 +239,29 @@ export default function DashboardPage() {
                             Dashboard
                         </Button>
                     </Link>
-                    <Link href="/devices">
-                        <Button variant="ghost" className="w-full justify-start text-gray-600" size="sm">
-                            <CreditCard className="h-4 w-4 mr-2" />
-                            Mis Dispositivos
-                        </Button>
-                    </Link>
-                    <Link href="/profiles">
-                        <Button variant="ghost" className="w-full justify-start text-gray-600" size="sm">
-                            <User className="h-4 w-4 mr-2" />
-                            Perfiles
-                        </Button>
-                    </Link>
-                    <Link href="/stats">
-                        <Button variant="ghost" className="w-full justify-start text-gray-600" size="sm">
-                            <FileText className="h-4 w-4 mr-2" />
-                            Estadísticas
-                        </Button>
-                    </Link>
+                    <Button variant="ghost" className="w-full justify-start text-gray-600" size="sm">
+                        <CreditCard className="h-4 w-4 mr-2" />
+                        Mis Dispositivos
+                    </Button>
+                    <Button variant="ghost" className="w-full justify-start text-gray-600" size="sm">
+                        <User className="h-4 w-4 mr-2" />
+                        Perfiles
+                    </Button>
+                    <Button variant="ghost" className="w-full justify-start text-gray-600" size="sm">
+                        <FileText className="h-4 w-4 mr-2" />
+                        Estadísticas
+                    </Button>
                 </div>
 
                 <div className="p-4 border-t border-gray-100">
-                    <Link href="/settings">
-                        <Button variant="ghost" className="w-full justify-start text-gray-600" size="sm">
-                            <Settings className="h-4 w-4 mr-2" />
-                            Configuración
-                        </Button>
-                    </Link>
-                    <Link href="/help">
-                        <Button variant="ghost" className="w-full justify-start text-gray-600" size="sm">
-                            <HelpCircle className="h-4 w-4 mr-2" />
-                            Ayuda
-                        </Button>
-                    </Link>
+                    <Button variant="ghost" className="w-full justify-start text-gray-600" size="sm">
+                        <Settings className="h-4 w-4 mr-2" />
+                        Configuración
+                    </Button>
+                    <Button variant="ghost" className="w-full justify-start text-gray-600" size="sm">
+                        <HelpCircle className="h-4 w-4 mr-2" />
+                        Ayuda
+                    </Button>
                 </div>
             </aside>
 
